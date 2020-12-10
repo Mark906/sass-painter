@@ -62,9 +62,9 @@
 }
 
 .navbar-bottom ul li {
-  padding: 21px 15px;
   letter-spacing: 1px;
   color: white;
+  padding: 21px 15px;
 }
 
 .navbar-bottom ul li:hover {

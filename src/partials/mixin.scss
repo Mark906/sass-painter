@@ -1,0 +1,9 @@
+@mixin reset-list {
+  letter-spacing: 1px;
+  color: white;
+  &:hover {
+      background-color: white;
+      color: black;
+      cursor: pointer;
+  }
+}
