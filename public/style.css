@@ -18,8 +18,17 @@
 
 .navbar-top ul li {
   padding: 0 5px;
+}
+
+.navbar-top ul li > a {
   color: #989898;
   font-size: 12px;
+  text-decoration: none;
+}
+
+.navbar-top ul li > a:hover {
+  text-decoration: underline;
+  color: white;
 }
 
 .navbar-top ul,
@@ -53,9 +62,15 @@
 }
 
 .navbar-bottom ul li {
-  padding: 0 15px;
+  padding: 21px 15px;
   letter-spacing: 1px;
   color: white;
+}
+
+.navbar-bottom ul li:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
 
 .navbar-bottom .logo {

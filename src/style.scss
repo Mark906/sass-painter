@@ -17,9 +17,18 @@
 
     ul li {
         padding: 0 5px;
+
+    }
+
+    ul li>a {
         color: #989898;
         font-size: 12px;
+        text-decoration: none;
 
+        &:hover {
+            text-decoration: underline;
+            color: white;
+        }
     }
 
     ul, ul li {
@@ -52,9 +61,15 @@
     }
 
     ul li {
-        padding: 0 15px;
+        padding: 21px 15px;
         letter-spacing: 1px;
         color: white;
+
+        &:hover {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
     }
 
     .logo {
