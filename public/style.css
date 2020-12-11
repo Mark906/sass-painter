@@ -90,7 +90,46 @@
 
 .jumbotron {
   height: 463px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+}
+
+.jumbotron .description {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  color: white;
+}
+
+.jumbotron .description h1 {
+  font-size: 30px;
+  padding: 5px;
+}
+
+.jumbotron .description h2 {
+  font-size: 22px;
+  padding: 5px;
+}
+
+.jumbotron .description ul {
+  font-size: 17px;
+  list-style-type: none;
+}
+
+.jumbotron .description ul li {
+  padding: 5px;
+}
+
+.jumbotron .description ul li > i {
+  color: #989898;
+}
+
+.card {
+  height: 400px;
+  width: 300px;
+  background-color: black;
 }
 
 footer {
@@ -100,7 +139,7 @@ footer {
   background-color: #1E1E1E;
 }
 
-.sponsor {
+footer .sponsor {
   display: flex;
   align-items: center;
   width: 300px;
@@ -108,35 +147,35 @@ footer {
   padding: 10px;
 }
 
-.logo_sponsor {
+footer .logo_sponsor {
   padding: 0 5px;
 }
 
-.footer-info {
+footer .footer-info {
   display: flex;
 }
 
-.footer-info ul {
+footer .footer-info ul {
   list-style-type: none;
   padding: 10px;
 }
 
-.footer-info ul li {
+footer .footer-info ul li {
   display: inline;
 }
 
-.footer-info ul li > a {
+footer .footer-info ul li > a {
   color: #989898;
   text-decoration: none;
   margin: 0 5px;
 }
 
-.footer-info ul li > a:hover {
+footer .footer-info ul li > a:hover {
   color: white;
   text-decoration: underline;
 }
 
-.footer-info p {
+footer .footer-info p {
   color: white;
   padding: 10px;
 }

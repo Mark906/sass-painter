@@ -1,4 +1,39 @@
 .jumbotron {
     height: 463px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        color: white;
+
+        h1 {
+            font-size: 30px;
+            padding: 5px;
+        }
+        h2 {
+           font-size: 22px;
+           padding: 5px;
+       }
+       ul {
+           font-size: 17px;
+           list-style-type: none;
+       }
+       ul li {
+           padding: 5px;
+       }
+       ul li>i {
+           color: #989898;
+       }
+    }
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    background-color: black;
 }
