@@ -13,18 +13,18 @@
 
         h1 {
             font-size: 30px;
-            padding: 5px;
+            padding: $description_padding;
         }
         h2 {
            font-size: 22px;
-           padding: 5px;
+           padding: $description_padding;
        }
        ul {
            font-size: 17px;
            list-style-type: none;
        }
        ul li {
-           padding: 5px;
+           padding: $description_padding;
        }
        ul li>i {
            color: #989898;
@@ -32,7 +32,7 @@
 
        a {
             width: 230px;
-            padding: 15px;
+            padding: $description_padding * 3;
             background-color: #666666;
             text-decoration: none;
             display: flex;
@@ -41,7 +41,7 @@
 
             .jumbo_button {
                 font-size: 12px;
-                padding-right: 20px;
+                padding-right: $description_padding * 4;
                 border-right: 1px solid white;
                 color: white;
                 span {
