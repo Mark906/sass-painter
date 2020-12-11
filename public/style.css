@@ -88,6 +88,11 @@
   color: #989898;
 }
 
+.jumbotron {
+  height: 463px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+}
+
 footer {
   display: flex;
   justify-content: space-around;
@@ -100,6 +105,11 @@ footer {
   align-items: center;
   width: 300px;
   justify-content: space-between;
+  padding: 10px;
+}
+
+.logo_sponsor {
+  padding: 0 5px;
 }
 
 .footer-info {

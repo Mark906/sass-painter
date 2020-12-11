@@ -12,7 +12,7 @@ let mix = require('laravel-mix');
  */
 
 mix.js('src/main.js', 'public/').sass('src/style.scss', 'public/');
-
+.options({ processCssUrls : false });
 // Full API
 // mix.js(src, output);
 // mix.react(src, output); <-- Identical to mix.js(), but registers React Babel compilation.
