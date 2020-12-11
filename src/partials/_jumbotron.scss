@@ -52,6 +52,7 @@
 
             i {
                 color: white;
+                margin-left: 10px;
             }
 
        }
@@ -61,5 +62,54 @@
 .card {
     height: 400px;
     width: 300px;
+    padding: $description_padding * 3;
     background-color: black;
+    position: relative;
+
+    a {
+        position: absolute;
+        right: 0;
+        padding: 0px $description_padding * 2;
+    }
+
+
+    .card-wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .buynow{
+            color: white;
+            h1 {
+                font-size: 26px;
+            }
+            p {
+                font-size: 14px;
+                color: #989898;
+            }
+            button {
+                padding: 10px 30px;
+                background-color: #039CFF;
+                border: none;
+                color: white;
+                font-weight: bold;
+            }
+        }
+
+        .offer {
+            color: black;
+            background-color: white;
+            h1 {
+                font-size: 18px;
+            }
+
+            p>a {
+                position: inherit;
+                display: block;
+                padding: 0;
+            }
+        }
+    }
+
 }

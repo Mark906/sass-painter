@@ -150,12 +150,64 @@
 
 .jumbotron .description a i {
   color: white;
+  margin-left: 10px;
 }
 
 .card {
   height: 400px;
   width: 300px;
+  padding: 15px;
   background-color: black;
+  position: relative;
+}
+
+.card a {
+  position: absolute;
+  right: 0;
+  padding: 0px 10px;
+}
+
+.card .card-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card .card-wrapper .buynow {
+  color: white;
+}
+
+.card .card-wrapper .buynow h1 {
+  font-size: 26px;
+}
+
+.card .card-wrapper .buynow p {
+  font-size: 14px;
+  color: #989898;
+}
+
+.card .card-wrapper .buynow button {
+  padding: 10px 30px;
+  background-color: #039CFF;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.card .card-wrapper .offer {
+  color: black;
+  background-color: white;
+}
+
+.card .card-wrapper .offer h1 {
+  font-size: 18px;
+}
+
+.card .card-wrapper .offer p > a {
+  position: inherit;
+  display: block;
+  padding: 0;
 }
 
 footer {
